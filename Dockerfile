@@ -1,7 +1,7 @@
 FROM node:16-alpine
 WORKDIR /app
-COPY package.json package-lock.json ./
+COPY package.json ./
 RUN npm install
-COPY src/ ./src/
+COPY . .
 EXPOSE 3000
-CMD ["node", "src/server.js"]
+CMD ["npm", "start"]
