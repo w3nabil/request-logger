@@ -1,0 +1,13 @@
+{
+  "name": "request-logger",
+  "version": "0.1-alpha",
+  "description": "A simple request logger for testing vulnerabilities.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "license": "MIT"
+}
